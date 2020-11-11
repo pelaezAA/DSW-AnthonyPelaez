@@ -1,0 +1,35 @@
+body{
+background : white;
+
+}
+
+.titulo{
+    text-align: center;
+    text-shadow: tomato;
+    color : #005883
+}
+
+.fondoAzul {
+    color :  #005883;
+}
+
+.fuenteUNAD {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.menu{
+    background-color:  #F0B429;
+    
+    text-align: center;
+    
+    width: 100%;
+}
+
+h2{
+    color: #005883;  
+    
+}
+
+img.pequeña{
+    width: 20%; height: 20%;
+  }
