@@ -4,6 +4,7 @@ background : white;
 }
 
 section{
+    padding-top: 30px;
     padding-left: 30px;    
     text-align: justify;
     margin: auto;
