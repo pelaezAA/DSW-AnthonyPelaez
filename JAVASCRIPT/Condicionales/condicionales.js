@@ -29,11 +29,11 @@ function limpiar(palabra){
 }
 
 function saludar(nombre, apellido, genero, evento, minutosFaltantes){
-    return console.log(`Bienvenid${definirGenero(genero)} ${limpiar(nombre)} ${limpiar(apellido)}, recuerda ${momento(minutosFaltantes)} el evento (${evento})`)
+    return `Bienvenid${definirGenero(genero)} ${limpiar(nombre)} ${limpiar(apellido)}, recuerda ${momento(minutosFaltantes)} el evento (${evento})`;
 }
 
-saludar("    LUIS", "perez", "MASCULINO", "Película", 600); // Devuelve --> Bienvenido LUIS PEREZ, recuerda hoy el evento (Película)
-saludar("ana ", "peRez", "FEMENINO", "Comidas del Mundo", 1500); // Devuelve --> Bienvenida ANA PEREZ, recuerda mañana el evento (Comidas del Mundo)
-saludar("  PEDRO ", "Gil", "MASCULINO", "Juego de Baloncesto", 5000); // Devuelve --> Bienvenido PEDRO GIL, recuerda pronto el evento (Juego de Baloncesto)
+console.log(saludar("    LUIS", "perez", "MASCULINO", "Película", 600)); // Devuelve --> Bienvenido LUIS PEREZ, recuerda hoy el evento (Película)
+console.log(saludar("ana ", "peRez", "FEMENINO", "Comidas del Mundo", 1500)); // Devuelve --> Bienvenida ANA PEREZ, recuerda mañana el evento (Comidas del Mundo)
+console.log(saludar("  PEDRO ", "Gil", "MASCULINO", "Juego de Baloncesto", 5000)); // Devuelve --> Bienvenido PEDRO GIL, recuerda pronto el evento (Juego de Baloncesto)
 
 
