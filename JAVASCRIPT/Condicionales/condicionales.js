@@ -29,7 +29,7 @@ function limpiar(palabra){
 }
 
 function saludar(nombre, apellido, genero, evento, minutosFaltantes){
-    return console.log(`Bienvenid${definirGenero(genero)} ${limpiar(nombre)} ${limpiar(apellido)}, recuerda ${momento(minutosFaltantes)} el evento (${evento})  `)
+    return console.log(`Bienvenid${definirGenero(genero)} ${limpiar(nombre)} ${limpiar(apellido)}, recuerda ${momento(minutosFaltantes)} el evento (${evento})`)
 }
 
 saludar("    LUIS", "perez", "MASCULINO", "Película", 600); // Devuelve --> Bienvenido LUIS PEREZ, recuerda hoy el evento (Película)
