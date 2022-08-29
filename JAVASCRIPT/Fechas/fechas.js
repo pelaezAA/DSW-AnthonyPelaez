@@ -13,7 +13,7 @@ function fechaParaHumanos(fecha, fechaReferencia) {
     }
 
     diferencia = Math.round(diferencia / 60);
-    00
+    
     if (diferencia <= 1) {
         return "hace 1 minuto"
     }

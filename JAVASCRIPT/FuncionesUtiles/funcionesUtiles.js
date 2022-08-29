@@ -20,7 +20,7 @@
 // La función definida en (2) debe retornar: [1]
 // La función definida en (3) debe retornar: [2,1,2,4]
 
-var arreglo1 = [1,2,3,4,5];
+var arreglo1 = [1,2,3,4,5,9];
 var arreglo2 = [1,2,4,8];
 
 console.log(`Arreglo 1: ${arreglo1}`);
@@ -30,9 +30,9 @@ var doble = arreglo1.map( x => {
 });
 console.log(doble);
 
-var impares = arreglo1.filter( x => {
-    return x % 2 !== 0;
-});
+var impares = arreglo1.filter( x => 
+    x % 2 !== 0  //Se puede omitir el return si se escribe directamente la condición después de la flecha
+);
 console.log(impares);
 
 var dobleOMitad = arreglo1.map( x => {
